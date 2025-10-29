@@ -297,6 +297,100 @@ body {
 
 
 
+/*  Responsive Hero Image */
+.hero-image {
+  width: 100%;
+  height: auto;
+  max-height: 80vh; /* fits laptop/desktop screens */
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border: 10px solid black;
+}
+
+/* Mobile View Optimization */
+@media (max-width: 768px) {
+  .hero-image {
+    max-height: 300px; /* reduce height for mobile */
+  }
+}
+
+
+/* Fit Cart Page Image to Screen (Responsive) */
+.carthero-image {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;   /* prevents it from being too tall */
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .carthero-image {
+    max-height: 300px; /* smaller height on phones */
+  }
+}
+
+
+/* 🎥 Responsive Video and Image for About Page */
+.about-video {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+/* 🖼️ Responsive About Page Image */
+.about-image {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border: 3px solid black;
+}
+
+/* 📱 Mobile View Adjustment */
+@media (max-width: 768px) {
+  .about-video,
+  .about-image {
+    max-height: 300px; /* fit properly on mobile */
+  }
+}
+
+
+/* 📞 Contact Page Image Fit */
+.contact-image {
+  width: 80%;
+  height: auto;
+  max-height: 80vh;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border: 3px solid black;
+}
+
+/* 📱 Mobile Optimization for Contact Page */
+@media (max-width: 768px) {
+  .contact-image {
+    max-height: 300px; /* fit correctly on mobile */
+  }
+
+  table {
+    width: 80%;
+    margin: 0 auto; /* center table */
+    font-size: 0.9em; /* slightly smaller text */
+  }
+}
+
+
+
+
+
 
 
 
